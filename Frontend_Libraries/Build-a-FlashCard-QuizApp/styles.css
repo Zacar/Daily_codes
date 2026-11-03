@@ -1,0 +1,29 @@
+#flashcard {
+  width: 350px;
+  height: 100px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(226, 217, 217);
+  padding: 20px;
+  cursor: pointer;
+  border-radius: 12px;
+  border: 2px solid #333;
+}
+
+button {
+  padding: 5px;
+  background-color: rgb(246, 192, 192);
+  margin: 20px auto;
+}
+
+#answer {
+  display: none;
+}
+#flashcard.flipped #question {
+  display: none;
+}
+#flashcard.flipped #answer {
+  display: block;
+}
